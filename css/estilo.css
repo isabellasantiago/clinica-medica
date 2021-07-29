@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #0000008c;
+}
+section:not(#recepcao){
+    margin: 40px auto;
+    max-width: 1024px;
+
+}
+
+header{
+    width: 100%;
+    background: #00CAD1;
+}
+
+.topo{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo img{
+    max-width: 140px;
+}
+.links-topo{
+    margin-left: 15px;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.links-topo a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+.links-topo a:hover{
+    color: #205067;
+}
+
+#recepcao {
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/recepcao.png');
+    background-size: cover;
+    
+}
+
+#recepcao #container{
+    max-width: 1024px;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    margin: 0 auto;
+}
+
+
+#recepcao h1{
+    width: 330px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    
+}
+
+#sobre{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sobre #descricao{
+    text-align: center;
+    max-width: 700px;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+    
+}
+#sobre #descricao h1{
+    margin-bottom: 20px;
+}
+
+.lista-sobre{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    gap: 30px;
+}
+
+#encontrarNaClinica{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    font-size: 1rem;
+}
+.lista-sobre #encontrarNaClinica h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    justify-self: flex-start;
+
+    text-align: right;
+}
+
+#encontrarNaClinica ul{
+    margin-left: 45px;
+}
+
+#especialidade{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#desc-especialidade {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.imagens-espec{
+    display: flex;
+    gap: 30px;
+    margin: 20px auto;
+}
+
+.imagens-espec img{
+    width: 300px;
+}
+
+.imagens-espec figure{
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+}
+
+.imagens-espec figure figcaption{
+    margin: 5px auto;
+}
+#link-espec{
+    align-self: center;
+    width: 150px;
+    height: 40px;
+    background: #00CAD1;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+#link-espec a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#contato{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#desc-contato{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    max-width: 610px;
+    font-size: 1rem;
+}
+
+#desc-contato span{
+    font-weight: 700;
+}
+
+#contato div iframe{
+    width: 1024px;
+    margin-top: 20px
+}
+
+footer{
+    background: #0D6E71;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 32px;
+}
+
+footer p{
+    color: #fff;
+    margin-top: 10px;
+}
+
+footer img{
+    max-width: 150px;
+}
